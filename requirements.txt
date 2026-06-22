@@ -2,7 +2,7 @@
 # Python 3.12+
 
 # Discord
-discord.py==2.3.2
+discord.py>=2.4.0
 
 # Database
 SQLAlchemy==2.0.30
