@@ -1,0 +1,459 @@
+2026-06-22 17:59:44 | ERROR    | scheduler:_inner:136 | [Scheduler] Alert posting timed out after 120s.
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score ERIE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('ERIE', 11.0, '{"unique_buyer_points": 0.0, "net_buy_points": 6.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 5.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"], "raw_score": 11.0, "normalised_score": 11.0}', '2026-06-22 06:22:52.082227')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MSFT: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MSFT', 11.0, '{"unique_buyer_points": 0.0, "net_buy_points": 6.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 5.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"], "raw_score": 11.0, "normalised_score": 11.0}', '2026-06-22 06:22:52.083667')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score 571903BM4: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('571903BM4', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.084711')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AMZN: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AMZN', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.085429')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AWK: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AWK', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.086132')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AXP: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AXP', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.086775')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score BR: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('BR', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.087432')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score BRK.B: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('BRK.B', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.088068')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score CARR: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('CARR', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.088786')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score CASY: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('CASY', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.089487')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score FDS: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('FDS', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.090220')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score FMAO: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('FMAO', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.091194')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score GOOG: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('GOOG', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.091895')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score HOG: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('HOG', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.092636')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.093378')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MMM: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MMM', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.094056')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MU: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MU', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.094767')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score NEE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('NEE', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.096523')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PAYX: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PAYX', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.097266')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PEP: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PEP', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.098110')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PTA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PTA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.099033')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score SBUX: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('SBUX', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.099721')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score SNDA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('SNDA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.100417')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score T: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('T', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.101116')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score TFC: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('TFC', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.101776')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score TSM: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('TSM', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.102476')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score VZ: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('VZ', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.103129')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score WAB: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('WAB', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:22:52.103782')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.alert_service:generate_alerts:110 | [AlertService] Failed to evaluate ERIE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO alerts (ticker, alert_type, score, summary, signal_data_json, alert_date, posted, posted_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('ERIE', 'REPEAT_BUYING', 11.0, '1 politician(s) made repeat purchases. Top: John Fetterman (2×).', '{"signal": {"repeat_buyers": {"John Fetterman": 2}, "total_buy_events": 2}, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"]}', '2026-06-22 06:22:52.127300', 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:22:52 | ERROR    | services.alert_service:generate_alerts:110 | [AlertService] Failed to evaluate MSFT: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO alerts (ticker, alert_type, score, summary, signal_data_json, alert_date, posted, posted_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('MSFT', 'REPEAT_BUYING', 11.0, '1 politician(s) made repeat purchases. Top: John Fetterman (2×).', '{"signal": {"repeat_buyers": {"John Fetterman": 2}, "total_buy_events": 2}, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"]}', '2026-06-22 06:22:52.129592', 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | scheduler:wrapper:72 | [Scheduler] Job 'seed_companies' FAILED after 0.0s: (sqlite3.IntegrityError) UNIQUE constraint failed: companies.ticker
+[SQL: INSERT INTO companies (ticker, company_name, sector, industry, market_cap, pe_ratio, revenue_growth, week_52_high, week_52_low, week_52_return, avg_volume, current_price, ticker_verified, manually_overridden, last_updated) VALUES (?, ?, ?, ?, ?, ?, ? ... 1693 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING created_at, ticker]
+[parameters: ('571903BM4', 'CORPORATE BOND', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AMZN', 'AMZN', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'ARES', 'ARES', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AWK', 'ADVISOR-DRIVEN QUARTERLY REBALANCING', None, None, None ... 470 parameters truncated ... None, None, 0, 0, None, 'VEA', 'VEA', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'VZ', 'VZ', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'WAB', 'ADVISOR-DRIVEN QUARTERLY REBALANCING', None, None, None, None, None, None, None, None, None, None, 0, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2127, in _exec_insertmany_context
+    dialect.do_execute(
+    │       └ <function DefaultDialect.do_execute at 0x000002B91C9F3530>
+    └ <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x000002B91D1330E0>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    │      │       │          └ ('571903BM4', 'CORPORATE BOND', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AMZN', 'AMZN', None,...
+    │      │       └ 'INSERT INTO companies (ticker, company_name, sector, industry, market_cap, pe_ratio, revenue_growth, week_52_high, week_52_l...
+    │      └ <method 'execute' of 'sqlite3.Cursor' objects>
+    └ <sqlite3.Cursor object at 0x000002B946913E40>
+
+sqlite3.IntegrityError: UNIQUE constraint failed: companies.ticker
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\bot.py", line 297, in <module>
+    main()
+    └ <function main at 0x000002B946615900>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\bot.py", line 275, in main
+    bot.run(
+    │   └ <function Client.run at 0x000002B91AEB5170>
+    └ <__main__.CapitolGainsBot object at 0x000002B91CAFBCB0>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\discord\client.py", line 933, in run
+    asyncio.run(runner())
+    │       │   └ <function Client.run.<locals>.runner at 0x000002B946631380>
+    │       └ <function run at 0x000002B91933CA90>
+    └ <module 'asyncio' from 'C:\\Users\\Workstation\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Client.run.<locals>.runner at 0x000002B91CABAD40>
+           │      └ <function Runner.run at 0x000002B91933CEB0>
+           └ <asyncio.runners.Runner object at 0x000002B9466386E0>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Client.run.<locals>.runner() running at C:\Users\Workstation\Desktop\capitol-gains\.venv\Li...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000002B91931D2D0>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000002B9466386E0>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000002B91931D220>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002B91931F320>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002B91928B950>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000002B9436DC850>()>
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000002B9436DC850>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000002B9436DC850>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000002B9436DC850>()>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+          │     │       └ {}
+          │     └ ()
+          └ <bound method CapitolGainsBot.on_ready of <__main__.CapitolGainsBot object at 0x000002B91CAFBCB0>>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\bot.py", line 141, in on_ready
+    self._scheduler.trigger_daily_now()
+    │    │          └ <function CapitolGainsScheduler.trigger_daily_now at 0x000002B946614930>
+    │    └ <scheduler.CapitolGainsScheduler object at 0x000002B94668C980>
+    └ <__main__.CapitolGainsBot object at 0x000002B91CAFBCB0>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\scheduler.py", line 525, in trigger_daily_now
+    job_seed_companies()
+    └ <function _timed_job.<locals>.decorator.<locals>.wrapper at 0x000002B946613060>
+
+> File "C:\Users\Workstation\Desktop\capitol-gains\scheduler.py", line 64, in wrapper
+    result = fn(*args, **kwargs)
+             │   │       └ {}
+             │   └ ()
+             └ <function job_seed_companies at 0x000002B946612FB0>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\scheduler.py", line 102, in job_seed_companies
+    with get_session() as session:
+         │                └ <sqlalchemy.orm.session.Session object at 0x000002B9468AD810>
+         └ <function get_session at 0x000002B91D25AC40>
+
+  File "C:\Users\Workstation\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+         │    └ <generator object get_session at 0x000002B94660A8E0>
+         └ <contextlib._GeneratorContextManager object at 0x000002B94664EDD0>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\database.py", line 180, in get_session
+    session.commit()
+    │       └ <function Session.commit at 0x000002B91CF6D590>
+    └ <sqlalchemy.orm.session.Session object at 0x000002B9468AD810>
+
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+    │     └ <function SessionTransaction.commit at 0x000002B91CF67530>
+    └ <sqlalchemy.orm.session.SessionTransaction object at 0x000002B946901D90>
+  File "<string>", line 2, in commit
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                │  │      │      └ {'_to_root': True}
+                │  │      └ ()
+                │  └ <sqlalchemy.orm.session.SessionTransaction object at 0x000002B946901D90>
+                └ <function SessionTransaction.commit at 0x000002B91CF67480>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1316, in commit
+    self._prepare_impl()
+    │    └ <function SessionTransaction._prepare_impl at 0x000002B91CF671C0>
+    └ <sqlalchemy.orm.session.SessionTransaction object at 0x000002B946901D90>
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                │  │      │      └ {}
+                │  │      └ ()
+                │  └ <sqlalchemy.orm.session.SessionTransaction object at 0x000002B946901D90>
+                └ <function SessionTransaction._prepare_impl at 0x000002B91CF67110>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1290, in _prepare_impl
+    self.session.flush()
+    │    │       └ <function Session.flush at 0x000002B91CF735E0>
+    │    └ <sqlalchemy.orm.session.Session object at 0x000002B9468AD810>
+    └ <sqlalchemy.orm.session.SessionTransaction object at 0x000002B946901D90>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+    │    │      └ None
+    │    └ <function Session._flush at 0x000002B91CF73A00>
+    └ <sqlalchemy.orm.session.Session object at 0x000002B9468AD810>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+         │    └ <class 'sqlalchemy.util.langhelpers.safe_reraise'>
+         └ <module 'sqlalchemy.util' from 'C:\\Users\\Workstation\\Desktop\\capitol-gains\\.venv\\Lib\\site-packages\\sqlalchemy\\util\\...
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+          │         │              └ <traceback object at 0x000002B946942E80>
+          │         └ <method 'with_traceback' of 'BaseException' objects>
+          └ IntegrityError('(sqlite3.IntegrityError) UNIQUE constraint failed: companies.ticker')
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+    │             └ <function UOWTransaction.execute at 0x000002B91CED1F30>
+    └ <sqlalchemy.orm.unitofwork.UOWTransaction object at 0x000002B94690DD30>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+    │   │       └ <sqlalchemy.orm.unitofwork.UOWTransaction object at 0x000002B94690DD30>
+    │   └ <function SaveUpdateAll.execute at 0x000002B91CED2AE0>
+    └ SaveUpdateAll(Mapper[Company(companies)])
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    │    │         │               └ <function save_obj at 0x000002B91CF17530>
+    │    │         └ <module 'sqlalchemy.orm.persistence' from 'C:\\Users\\Workstation\\Desktop\\capitol-gains\\.venv\\Lib\\site-packages\\sqlalch...
+    │    └ <module 'sqlalchemy.util.preloaded' from 'C:\\Users\\Workstation\\Desktop\\capitol-gains\\.venv\\Lib\\site-packages\\sqlalche...
+    └ <module 'sqlalchemy.util' from 'C:\\Users\\Workstation\\Desktop\\capitol-gains\\.venv\\Lib\\site-packages\\sqlalchemy\\util\\...
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    └ <function _emit_insert_statements at 0x000002B91CF48510>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1144, in _emit_insert_statements
+    result = connection.execute(
+             │          └ <function Connection.execute at 0x000002B91C8F3530>
+             └ <sqlalchemy.engine.base.Connection object at 0x000002B94687FF20>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           └ <bound method ClauseElement._execute_on_connection of <sqlalchemy.sql.dml.Insert object at 0x000002B94690DE90>>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           │          └ <function Connection._execute_clauseelement at 0x000002B91C8F3C10>
+           └ <sqlalchemy.engine.base.Connection object at 0x000002B94687FF20>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          │    └ <function Connection._execute_context at 0x000002B91C8F40F0>
+          └ <sqlalchemy.engine.base.Connection object at 0x000002B94687FF20>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           │    │                        │        └ <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x000002B9468AEAD0>
+           │    │                        └ <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x000002B91D1330E0>
+           │    └ <function Connection._exec_insertmany_context at 0x000002B91C8F43B0>
+           └ <sqlalchemy.engine.base.Connection object at 0x000002B94687FF20>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2135, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+    │    └ <function Connection._handle_dbapi_exception at 0x000002B91C8F47D0>
+    └ <sqlalchemy.engine.base.Connection object at 0x000002B94687FF20>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+          │                    │              │                 └ IntegrityError('UNIQUE constraint failed: companies.ticker')
+          │                    │              └ (<class 'sqlite3.IntegrityError'>, IntegrityError('UNIQUE constraint failed: companies.ticker'), <traceback object at 0x00000...
+          │                    └ <method 'with_traceback' of 'BaseException' objects>
+          └ IntegrityError('(sqlite3.IntegrityError) UNIQUE constraint failed: companies.ticker')
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2127, in _exec_insertmany_context
+    dialect.do_execute(
+    │       └ <function DefaultDialect.do_execute at 0x000002B91C9F3530>
+    └ <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x000002B91D1330E0>
+  File "C:\Users\Workstation\Desktop\capitol-gains\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    │      │       │          └ ('571903BM4', 'CORPORATE BOND', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AMZN', 'AMZN', None,...
+    │      │       └ 'INSERT INTO companies (ticker, company_name, sector, industry, market_cap, pe_ratio, revenue_growth, week_52_high, week_52_l...
+    │      └ <method 'execute' of 'sqlite3.Cursor' objects>
+    └ <sqlite3.Cursor object at 0x000002B946913E40>
+
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: companies.ticker
+[SQL: INSERT INTO companies (ticker, company_name, sector, industry, market_cap, pe_ratio, revenue_growth, week_52_high, week_52_low, week_52_return, avg_volume, current_price, ticker_verified, manually_overridden, last_updated) VALUES (?, ?, ?, ?, ?, ?, ? ... 1693 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING created_at, ticker]
+[parameters: ('571903BM4', 'CORPORATE BOND', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AMZN', 'AMZN', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'ARES', 'ARES', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'AWK', 'ADVISOR-DRIVEN QUARTERLY REBALANCING', None, None, None ... 470 parameters truncated ... None, None, 0, 0, None, 'VEA', 'VEA', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'VZ', 'VZ', None, None, None, None, None, None, None, None, None, None, 0, 0, None, 'WAB', 'ADVISOR-DRIVEN QUARTERLY REBALANCING', None, None, None, None, None, None, None, None, None, None, 0, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score ERIE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('ERIE', 11.0, '{"unique_buyer_points": 0.0, "net_buy_points": 6.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 5.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"], "raw_score": 11.0, "normalised_score": 11.0}', '2026-06-22 06:24:54.307582')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MSFT: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MSFT', 11.0, '{"unique_buyer_points": 0.0, "net_buy_points": 6.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 5.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"], "raw_score": 11.0, "normalised_score": 11.0}', '2026-06-22 06:24:54.308549')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score 571903BM4: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('571903BM4', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.309366')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AMZN: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AMZN', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.310142')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AWK: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AWK', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.311305')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score AXP: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('AXP', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.311962')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score BR: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('BR', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.312585')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score BRK.B: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('BRK.B', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.313202')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score CARR: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('CARR', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.313792')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score CASY: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('CASY', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.314306')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score FDS: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('FDS', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.314927')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score FMAO: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('FMAO', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.315640')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score GOOG: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('GOOG', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.316420')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score HOG: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('HOG', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.317131')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.317750')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MMM: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MMM', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.318367')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score MU: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('MU', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.318995')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score NEE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('NEE', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.319601')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PAYX: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PAYX', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.320185')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PEP: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PEP', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.320801')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score PTA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('PTA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.321404')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score SBUX: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('SBUX', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.321981')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score SNDA: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('SNDA', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.322536')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score T: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('T', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.323192')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score TFC: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('TFC', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.323895')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score TSM: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('TSM', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.324510')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score VZ: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('VZ', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.325146')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.scoring_engine:score_all:151 | [ScoringEngine] Failed to score WAB: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO scores (ticker, score, breakdown_json, calculated_at) VALUES (?, ?, ?, ?)]
+[parameters: ('WAB', 0.0, '{"unique_buyer_points": 0.0, "net_buy_points": 0.0, "sector_momentum_points": 0.0, "repeat_purchase_points": 0.0, "frequency_multiplier_active": 0.0, "large_transaction_points": 0.0, "active_signals": [], "raw_score": 0.0, "normalised_score": 0.0}', '2026-06-22 06:24:54.325656')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.alert_service:generate_alerts:110 | [AlertService] Failed to evaluate ERIE: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO alerts (ticker, alert_type, score, summary, signal_data_json, alert_date, posted, posted_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('ERIE', 'REPEAT_BUYING', 11.0, '1 politician(s) made repeat purchases. Top: John Fetterman (2×).', '{"signal": {"repeat_buyers": {"John Fetterman": 2}, "total_buy_events": 2}, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"]}', '2026-06-22 06:24:54.349337', 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:24:54 | ERROR    | services.alert_service:generate_alerts:110 | [AlertService] Failed to evaluate MSFT: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO alerts (ticker, alert_type, score, summary, signal_data_json, alert_date, posted, posted_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('MSFT', 'REPEAT_BUYING', 11.0, '1 politician(s) made repeat purchases. Top: John Fetterman (2×).', '{"signal": {"repeat_buyers": {"John Fetterman": 2}, "total_buy_events": 2}, "active_signals": ["NET_BUY_ACTIVITY", "REPEAT_BUYING"]}', '2026-06-22 06:24:54.351529', 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-06-22 18:28:56 | ERROR    | scheduler:_inner:172 | [Scheduler] Alert posting timed out after 120s.
+2026-06-22 18:29:56 | ERROR    | scheduler:_inner:194 | [Scheduler] Daily report timed out after 60s.
+2026-06-22 18:32:07 | ERROR    | scheduler:_inner:172 | [Scheduler] Alert posting timed out after 120s.
+2026-06-22 18:35:35 | ERROR    | scheduler:_inner:172 | [Scheduler] Alert posting timed out after 120s.
+2026-06-22 18:55:48 | ERROR    | services.trade_collector:run_all_collectors:641 | Collector 'congress' failed: [CongressCollector] Fetch failed after 3 attempts: Quiver API returned HTTP 500: "QueuePool limit of size 8 overflow 7 reached, connection timed out, timeout 10.00 (Background on this error at: https://sqlalche.me/e/14/3o7r)"
+2026-06-22 19:12:45 | ERROR    | services.trade_collector:run_all_collectors:641 | Collector 'congress' failed: [CongressCollector] Fetch failed after 3 attempts: Quiver API returned HTTP 500: "QueuePool limit of size 8 overflow 7 reached, connection timed out, timeout 10.00 (Background on this error at: https://sqlalche.me/e/14/3o7r)"
